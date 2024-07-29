@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on #Probllama by OpenShield</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on #Probllama by OpenShield</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 25 Jul 2024 05:00:25 +0200</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Google Colab AI: Data Leakage Through Image Rendering Fixed. Some Risks Remain.</title>
+      <link>http://localhost:1313/posts/2024-07-25/google_colab_ai_data_leakage_through_image_rendering_fixed_some_risks_remain.md/</link>
+      <pubDate>Thu, 25 Jul 2024 05:00:25 +0200</pubDate>
+      <guid>http://localhost:1313/posts/2024-07-25/google_colab_ai_data_leakage_through_image_rendering_fixed_some_risks_remain.md/</guid>
+      <description>Google Colab AI, now just called Gemini in Colab, was vulnerable to data leakage via image rendering. This is an older bug report, dating back to November 29, 2023. However, recent events prompted me to write this up: Google did not reward this finding, and Colab now automatically puts Notebook content (untrusted data) into the prompt. Let’s explore the specifics. Google Colab AI - Revealing the System Prompt At the end of November last year, I noticed that there was a “Colab AI” feature, which integrated an LLM to chat with and write code.</description>
+    </item>
+    <item>
+      <title>Breaking Instruction Hierarchy in OpenAI\&#39;s gpt-4o-mini</title>
+      <link>http://localhost:1313/posts/2024-07-22/breaking_instruction_hierarchy_in_openais_gpt_4o_mini/</link>
+      <pubDate>Mon, 22 Jul 2024 06:14:05 -0700</pubDate>
+      <guid>http://localhost:1313/posts/2024-07-22/breaking_instruction_hierarchy_in_openais_gpt_4o_mini/</guid>
+      <description>Recently, OpenAI announced gpt-4o-mini and there are some interesting updates, including safety improvements regarding “Instruction Hierarchy”: OpenAI puts this in the light of “safety”, the word security is not mentioned in the announcement. Additionally, this The Verge article titled “OpenAI’s latest model will block the ‘ignore all previous instructions’ loophole” created interesting discussions on X, including a first demo bypass. I spent some time this weekend to get a better intuition about gpt-4o-mini model and instruction hierarchy, and the conclusion is that system instructions are still not a security boundary.</description>
+    </item>
+    <item>
+      <title>Sorry, ChatGPT Is Under Maintenance: Persistent Denial of Service through Prompt Injection and Memory Attacks</title>
+      <link>http://localhost:1313/posts/2024-07-08/sorry_chatgpt_is_under_maintenance_persistent_denial_of_service_through_prompt_injection_and_memory_attacks/</link>
+      <pubDate>Mon, 08 Jul 2024 14:30:18 -0700</pubDate>
+      <guid>http://localhost:1313/posts/2024-07-08/sorry_chatgpt_is_under_maintenance_persistent_denial_of_service_through_prompt_injection_and_memory_attacks/</guid>
+      <description>Imagine you visit a website with ChatGPT, and suddenly, it stops working entirely! In this post we show how an attacker can use prompt injection to cause a persistent denial of service that lasts across chat sessions for a user. Hacking Memories Previously we discussed how ChatGPT is vulnerable to automatic tool invocation of the memory tool. This can be used by an attacker during prompt injection to ingest malicious or fake memories into your ChatGPT.</description>
+    </item>
+  </channel>
+</rss>

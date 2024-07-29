@@ -1,0 +1,31 @@
+baseURL: https://probllama.com
+languageCode: en-us
+title: "#Probllama by OpenShield"
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+
+enableRobotsTXT: true
+
+theme: ["smol"]
+
+menu:
+  main:
+    - name: "RSS"
+      url: "/index.xml"
+  footer:
+    - name: "Github"
+      url: "https://github.com/openshieldai/probllama"
+      weight: 1
+
+    - name: "OpenShield"
+      url: "https://openshield.ai"
+      weight: 2
+
+
+outputs:
+  home:
+    - HTML
+    - RSS

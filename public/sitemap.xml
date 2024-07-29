@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>http://localhost:1313/</loc>
+    <lastmod>2024-07-25T05:00:25+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2024-07-25/google_colab_ai_data_leakage_through_image_rendering_fixed_some_risks_remain.md/</loc>
+    <lastmod>2024-07-25T05:00:25+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/</loc>
+    <lastmod>2024-07-25T05:00:25+02:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2024-07-22/breaking_instruction_hierarchy_in_openais_gpt_4o_mini/</loc>
+    <lastmod>2024-07-22T06:14:05-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/posts/2024-07-08/sorry_chatgpt_is_under_maintenance_persistent_denial_of_service_through_prompt_injection_and_memory_attacks/</loc>
+    <lastmod>2024-07-08T14:30:18-07:00</lastmod>
+  </url><url>
+    <loc>http://localhost:1313/archives/</loc>
+  </url><url>
+    <loc>http://localhost:1313/categories/</loc>
+  </url><url>
+    <loc>http://localhost:1313/search/</loc>
+  </url><url>
+    <loc>http://localhost:1313/tags/</loc>
+  </url>
+</urlset>
