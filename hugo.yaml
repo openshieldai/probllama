@@ -11,6 +11,10 @@ enableRobotsTXT: true
 
 theme: ["smol"]
 
+params:
+  description: Gathering comprehensive data on AI security incidents to keep you informed and safe.
+  title: "#Probllama by OpenShield"
+
 menu:
   main:
     - name: "RSS"
