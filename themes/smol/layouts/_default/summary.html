@@ -1,0 +1,19 @@
+<!-- <article> -->
+<ul>
+	<li>
+		<span class="date">{{ .Date.Format (.Site.Params.dateFormat | default "January 2, 2006"
+			) }}</span>
+		<a class="title" href="{{ .Params.externalLink | default .RelPermalink }}">{{ .Title }}</a>
+	</li>
+
+	{{ range .Params.tags }}
+	<a href="{{ " /tags/" | relLangURL }}{{ . | urlize }}">{{ . }}</a>
+	{{ end }}
+</ul>
+<!-- <div>
+		{{ .Summary }}
+		{{ if .Truncated }}
+			<a href="{{ .Permalink }}">Read more...</a>
+		{{ end }}
+	</div> -->
+<!-- </article> -->
